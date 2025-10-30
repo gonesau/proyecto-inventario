@@ -1,0 +1,33 @@
+/* css/style.css */
+
+/* Usamos 'vh-100' (viewport height 100%) en el HTML, 
+   pero forzamos un color de fondo para la app completa.
+*/
+body {
+    background-color: #f8f9fa; /* Un gris claro de Bootstrap */
+}
+
+/* Ajuste para que el contenedor de la app 
+   no se pegue al navbar en pantallas pequeñas. 
+*/
+#app-container {
+    padding-top: 1rem;
+}
+
+/* Un pequeño 'placeholder' visual para la tabla
+   cuando está vacía o cargando.
+*/
+#product-table-body:empty:after {
+    content: "Cargando productos o no hay productos...";
+    display: block;
+    padding: 2rem;
+    text-align: center;
+    color: #6c757d; /* color 'text-muted' de Bootstrap */
+}
+
+/* Hacemos que los botones de acción se vean 
+   como 'clicables' en toda la fila para mejor UI.
+*/
+.btn-edit, .btn-delete {
+    cursor: pointer;
+}
