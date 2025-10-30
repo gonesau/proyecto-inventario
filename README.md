@@ -87,7 +87,7 @@ npm install
 npm start
 
 # El servidor estará corriendo en http://localhost:3000
-```
+
 
 # 1. Abre una SEGUNDA terminal
 # 2. Navega a la carpeta del cliente
@@ -98,3 +98,4 @@ cd cliente/
 npx serve -l 5500
 
 # El cliente estará corriendo en http://localhost:5500
+```
