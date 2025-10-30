@@ -28,7 +28,7 @@ El proyecto responde a los siguientes requisitos:
 
 ---
 
-## 🚀 Arquitectura
+## Arquitectura
 
 El proyecto está dividido en dos componentes principales que se ejecutan de forma independiente:
 
@@ -39,7 +39,7 @@ El proyecto está dividido en dos componentes principales que se ejecutan de for
 
 ---
 
-## ✨ Características
+## Características
 
 * **Autenticación de Prototipo**: Login simple que entrega un "token" de seguridad.
 * **Seguridad de API**: Endpoints protegidos. El cliente debe enviar un *Bearer Token* válido para realizar operaciones.
@@ -53,7 +53,7 @@ El proyecto está dividido en dos componentes principales que se ejecutan de for
 
 ---
 
-## 🛠️ Stack Tecnológico
+##  Stack Tecnológico
 
 ### Backend (servidor/)
 * **Node.js**: Entorno de ejecución de JavaScript.
@@ -69,7 +69,7 @@ El proyecto está dividido en dos componentes principales que se ejecutan de for
 
 ---
 
-## 🏁 Cómo Levantar el Proyecto
+##  Cómo Levantar el Proyecto
 
 Para ejecutar este prototipo, necesitas tener **Node.js** y **npm** instalados. El proyecto requiere que se levanten **dos servidores** en terminales separadas.
 
@@ -97,5 +97,5 @@ cd cliente/
 # Usamos el puerto 5500 para evitar conflictos con la API
 npx serve -l 5500
 
-# El cliente estará corriendo en http://localhost:5500
+# El cliente estará corriendo en http://localhost:5500/cliente
 ```
